@@ -1,14 +1,14 @@
 [
   {
     "title": "Mijn geboorte",
-    "image": "",
+    "image": "images/Nu.jpg",
     "position": 100,
     "year": "2004",
     "description": "Op 9 april 2004 werd ik geboren in België te Halle."
   },
   {
     "title": "Start van mijn voetbalcarrière",
-    "image": "",
+    "image": "images/voetbal.jpeg",
     "position": 300,
     "year": "2017",
     "description": "In 2017 begon ik mijn voetbalfase bij Avenir Lembeek."
@@ -19,5 +19,19 @@
     "position": 500,
     "year": "2026",
     "description": "Nu ben ik 22 jaar en student aan Erasmus Hogeschool Brussel, waar ik Multimedia studeer."
+  },
+  {
+    "title": "Ontdekking van darts",
+    "image": "images/darts.jpg",
+    "position": 400,
+    "year": "2021",
+    "description": "In 2021 ontdekte ik mijn passie voor darts en begon ik regelmatig te spelen."
+  },
+  {
+    "title": "Start middelbare school",
+    "image": "images/middelbare.jpg",
+    "position": 200,
+    "year": "2016",
+    "description": "In 2016 begon ik aan mijn middelbare schooltijd, een nieuwe en spannende fase."
   }
 ]
