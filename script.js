@@ -8,15 +8,27 @@ fetch("data.json")
       div.classList.add("item");
       div.style.left = item.position + "px";
 
-      div.innerHTML = `
+      const title = document.createElement("h3");
+      title.textContent = item.title;
+      title.classList.add("item-title");
+
+      const info = document.createElement("div");
+      info.classList.add("info");
+      info.innerHTML = `
         <img src="${item.image}" alt="${item.title}">
-        <div class="info">
-          <h3>${item.title}</h3>
-          <p>${item.year}</p>
-          <p>${item.description}</p>
-        </div>
+        <p>${item.year}</p>
+        <p>${item.description}</p>
       `;
 
+      title.addEventListener("mouseenter", () => {
+        info.style.display = "block";
+      });
+      title.addEventListener("mouseleave", () => {
+        info.style.display = "none";
+      });
+
+      div.appendChild(title);
+      div.appendChild(info);
       timeline.appendChild(div);
     });
   });
