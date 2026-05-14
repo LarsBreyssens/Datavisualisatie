@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Mijn geboorte",
+    "image": "",
+    "position": 100,
+    "year": "2004",
+    "description": "Op 9 april 2004 werd ik geboren in België te Halle."
+  },
+  {
+    "title": "Start van mijn voetbalcarrière",
+    "image": "",
+    "position": 300,
+    "year": "2017",
+    "description": "In 2017 begon ik mijn voetbalfase bij Avenir Lembeek."
+  },
+  {
+    "title": "Vandaag",
+    "image": "",
+    "position": 500,
+    "year": "2026",
+    "description": "Nu ben ik 22 jaar en student aan Erasmus Hogeschool Brussel, waar ik Multimedia studeer."
+  }
+]
